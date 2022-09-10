@@ -1,5 +1,5 @@
 ![Header Graphic](https://github.com/thegrandblooms/Phase_4_Project_FIS-DS/blob/c1442bc8111b37945f3ec61caba1b970ff6689fc/graphics/header.jpg)
-# Recommendation Systems - Flatiron Data Science, Phase 4 Project
+# Pneumonia Detection with Deep Learning - Flatiron Data Science, Phase 4 Project
 Author: Blake McMeekin
 
 ## Overview
