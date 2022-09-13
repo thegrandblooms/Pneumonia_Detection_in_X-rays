@@ -65,7 +65,7 @@ Can broken bones be identified? What about tumors or cancers? What do doctors ne
 
 ## For more information
 
-See the full analysis in the Jupyter Notebook or review the presentation in the pdf.
+See the full analysis in the [Jupyter Notebook](https://github.com/thegrandblooms/Phase_4_Project_FIS-DS/blob/b0ebc9105ee0d8ae06ebe61c97e419219f98edac/CNN%20for%20Pneumonia%20Detection.ipynb) or review the [presentation](https://github.com/thegrandblooms/Phase_4_Project_FIS-DS/blob/b0ebc9105ee0d8ae06ebe61c97e419219f98edac/Pneumonia%20Detection%20Presentation.pdf).
 
 For additional information, contact Blake McMeekin at blakemcme@gmail.com
 
