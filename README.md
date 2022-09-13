@@ -1,11 +1,11 @@
-![Header Graphic](url)
-# Recommendation Systems - Flatiron Data Science, Phase 4 Project
+![Header Graphic](https://github.com/thegrandblooms/Phase_4_Project_FIS-DS/blob/c1442bc8111b37945f3ec61caba1b970ff6689fc/graphics/header.jpg)
+# Pneumonia Detection with Deep Learning - Flatiron Data Science, Phase 4 Project
 Author: Blake McMeekin
 
 ## Overview
 Pneumonia is a potentially life-threatening ["infection that inflames the air sacs in one or both lungs."](https://www.mayoclinic.org/diseases-conditions/pneumonia/symptoms-causes/syc-20354204#:~:text=Pneumonia%20is%20an%20infection%20that,and%20fungi%2C%20can%20cause%20pneumonia.) "A variety of organisms, including bacteria, viruses and fungi can cause pneumonia." Pneumonia is especially relevant today in the treatment of serious Covid-19 infections. 
 
-In this notebook we'll build a deep-learning model to analyze x-ray images for the presence of Pneumonia. We'll be looking at over 5000 X-rays of children age 1-5 sourced from UCSD, building a few convolutional neural nets to interpret and classify these images. Note that in order for our model to generalize to adults, we would need additional training data, which might be supplemented by the model built in this notebook as pretraining.
+In this notebook we'll build a deep-learning model to analyze x-ray images for the presence of Pneumonia. We'll be looking at over 5000 X-rays of children age 1-5 sourced from [UCSD](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), building a few convolutional neural nets to interpret and classify these images. Note that in order for our model to generalize to adults, we would need additional training data, which might be supplemented by the model built in this notebook as pretraining.
 
 We'll use data generation to increase the size of this dataset, helping our model generalize to new images or images at different angles or scales. This may make our model take longer to train, but increases performance on unseen data. Image resolution a balance between model performance and training times. Since all of the training in this notebook was done locally, an image size of 100x100 was chosen to keep training times under 1 hour.
 
@@ -17,11 +17,13 @@ Our model architecture is iterative, starting with a simple three-layer CNN. We 
 
 Increasing the detection rate of pneumonia can increase the quality of healthcare in hospitals and clinics around the world, and automated processes can help particularly when hospitals are understaffed or short of funding. One machine learning model could analyze thousands of x-rays per hour, serving clinics across the globe.
 
+![Floral image of lungs](https://github.com/thegrandblooms/Phase_4_Project_FIS-DS/blob/c1442bc8111b37945f3ec61caba1b970ff6689fc/graphics/DALL%C2%B7E%202022-09-09%2022.47.43%20-%20lungs%20made%20of%20a%20flower%20arrangement,%20poignant%20and%20thought-provoking%20digital%20art%20photography.png)
+
 ## Data
 
 Our data consists of 5846 X-ray images of lungs of children aged 1-5 provided by UCSD. In addition to this, we use data generation to increase the size of this dataset by rotating or rescaling images. Our training data also has a considerable class imbalance, with about three times as many unhealthy lungs as healthy lungs.
 
-![Images of healthy/unhealthy lungs](url)
+![Images of healthy/unhealthy lungs](https://github.com/thegrandblooms/Phase_4_Project_FIS-DS/blob/c1442bc8111b37945f3ec61caba1b970ff6689fc/graphics/lungs.png)
 
 ## Methods
 
@@ -39,7 +41,7 @@ For validating our model, we split our images into train, validation and test se
 
 ## Findings
 
-![Confusion Matrix](url)
+![Confusion Matrix](https://github.com/thegrandblooms/Phase_4_Project_FIS-DS/blob/c1442bc8111b37945f3ec61caba1b970ff6689fc/graphics/confusion_matrix.png)
 
 - Test accuracy around 92%
 - Can inspect thousands of cases per hour
